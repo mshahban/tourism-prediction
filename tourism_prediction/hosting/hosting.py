@@ -6,7 +6,7 @@ import os
 api = HfApi(token=os.getenv("HF_TOKEN"))
 
 # Define your unique Hugging Face Space repository parameters
-repo_id = "mshahban/tourism-prediction-space"
+repo_id = "mshahban/tourism-prediction-test"
 repo_type = "space"
 
 # Verify repository availability before running upload procedures

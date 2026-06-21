@@ -31,7 +31,7 @@ st.markdown("---")
 
 # --- Interactive Information Sidebar ---
 with st.sidebar:
-    st.image("https://unsplash.com", use_container_width=True)
+    # st.image("https://unsplash.com", use_container_width=True)
     st.header("💡 Live Profile Metrics")
     income_input = st.number_input("Gross Monthly Income (INR)", min_value=0, max_value=200000, value=25000, step=500)
 
